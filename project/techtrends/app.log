@@ -1,0 +1,97 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 241-212-215
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:Status request successfull
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:24:20] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:24:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:24:31] "[37mGET /1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:24:39] "[33mGET /7 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:24:45] "[37mGET /about HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:24:53] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:25:00] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:25:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'F:\\Repositories\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 241-212-215
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:Status request successfull
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:27:19] "[37mGET /metrics HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:27:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:27:22] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:app:Article title retrived
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:27:29] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 01:27:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 241-212-215
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'F:\\Repositories\\nd064_course_1\\project\\techtrends\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:10:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:10:42] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:10:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Article "2020 CNCF Annual Report" retrieved!
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:11:07] "[37mGET /1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:11:09] "[37mGET /about HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:11:10] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:11:17] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:11:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:12:45] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:12:48] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:12:48] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:app:Article "Kubernetes Certification" retrieved!
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:13:03] "[37mGET /6 HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:Article "Kubernetes Certification" retrieved!
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:13:58] "[37mGET /6 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:14:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:Article "2020 CNCF Annual Report" retrieved!
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:14:03] "[37mGET /1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:14:05] "[37mGET /about HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:14:07] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:14:11] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 21:14:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:Article "Kubernetes Certification" retrieved!
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 23:52:34] "[37mGET /6 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 23:52:43] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 23:52:50] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2021 23:52:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:12:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:12:14] "[37mGET /about HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:12:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Article "CHECK" retrieved!
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:12:19] "[37mGET /12 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:12:28] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:12:31] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:12:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Article "1111222" retrieved!
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:12:34] "[37mGET /13 HTTP/1.1[0m" 200 -
+INFO:root:Article "333" retrieved!
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:14:09] "[33mGET /333 HTTP/1.1[0m" 404 -
+INFO:root:Article "333" retrieved!
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:18:47] "[33mGET /333 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:18:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Article "KubeCon + CloudNativeCon 2021" retrieved!
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:18:53] "[37mGET /2 HTTP/1.1[0m" 200 -
+INFO:root:Article "100" retrieved!
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:18:59] "[33mGET /100 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Article "2020 CNCF Annual Report" retrieved!
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:24] "[37mGET /1 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:Article with id "90" does not exist!
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:30] "[33mGET /90 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:43] "[37mGET /create HTTP/1.1[0m" 200 -
+INFO:root:Article "az" created
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:47] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:root:Article "az" created
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:47] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2021 00:19:48] "[37mGET / HTTP/1.1[0m" 200 -
