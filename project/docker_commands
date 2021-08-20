@@ -13,3 +13,29 @@ docker logs -f 2b87c4e61d21
    WARNING: This is a development server. Do not use it in a production deployment.
    Use a production WSGI server instead.
  * Debug mode: off
+  INFO:werkzeug: * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+  INFO:werkzeug: * Restarting with stat
+  WARNING:werkzeug: * Debugger is active!
+  INFO:werkzeug: * Debugger PIN: 276-257-594
+  INFO:root:Article "2020 CNCF Annual Report" retrieved!
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:40:09] "GET /1 HTTP/1.1" 200 -
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:40:09] "GET / HTTP/1.1" 200 -
+  INFO:root:Article "KubeCon + CloudNativeCon 2021" retrieved!
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:40:11] "GET /2 HTTP/1.1" 200 -
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:01] "GET / HTTP/1.1" 200 -
+  INFO:root:About Us page was retrieved
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:03] "GET /about HTTP/1.1" 200 -
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:05] "GET /create HTTP/1.1" 200 -
+  INFO:root:Article "test" created
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:09] "POST /create HTTP/1.1" 302 -
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:09] "GET / HTTP/1.1" 200 -
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:11] "GET / HTTP/1.1" 200 -
+  INFO:root:Article "2020 CNCF Annual Report" retrieved!
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:15] "GET /1 HTTP/1.1" 200 -
+  INFO:root:Article with id "1000" does not exist!
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:20] "GET /1000 HTTP/1.1" 404 -
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:21] "GET / HTTP/1.1" 200 -
+  INFO:root:Article "CNCF Cloud Native Interactive Landscape" retrieved!
+  INFO:werkzeug:172.17.0.1 - - [20/Aug/2021 06:42:23] "GET /4 HTTP/1.1" 200 -
+
+ 

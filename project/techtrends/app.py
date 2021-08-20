@@ -1,5 +1,6 @@
 import sqlite3
 import logging
+import sys
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
 
@@ -92,5 +93,6 @@ def metrics():
 
 # start the application on port 3111
 if __name__ == "__main__":
-   logging.basicConfig(filename='app.log',level=logging.DEBUG)
-   app.run(host='0.0.0.0', port='3111')
+   #logging.basicConfig(filename='app.log',level=logging.DEBUG)
+   logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+   app.run(debug=True, host='0.0.0.0', port='3111')
